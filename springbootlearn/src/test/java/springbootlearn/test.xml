@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >  
+<suite name="somke">
+    <test verbose="1" name="smoke" >
+        <classes>
+            <class name="springbootlearn.Test1"/>
+            <class name="springbootlearn.Test2"/>
+        </classes>
+    </test>
+</suite>

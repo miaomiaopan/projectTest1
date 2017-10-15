@@ -1,9 +1,9 @@
 package springbootlearn.service;
 
-import springbootlearn.entity.test2.Student;
+import springbootlearn.entity.test1.People;
 
 public interface PeopleService {
-	public Student savePersonWithRollBack(Student people);
+	public People savePersonWithRollBack(People people);
 
-	public Student savePersonWithoutRollBack(Student people);
+	public People savePersonWithoutRollBack(People people);
 }

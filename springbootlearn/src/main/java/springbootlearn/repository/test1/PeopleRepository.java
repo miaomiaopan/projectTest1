@@ -6,6 +6,6 @@ import org.springframework.stereotype.Repository;
 import springbootlearn.entity.test1.People;
 
 @Repository
-public interface PeopleRepository extends JpaRepository<People, Long>{
+public interface PeopleRepository extends JpaRepository<People, Long>,PeopleRepositoryCustom{
 
 }

@@ -1,24 +1,47 @@
 package springbootlearn.controller;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import springbootlearn.entity.test1.People;
+import springbootlearn.entity.test2.Student;
+import springbootlearn.repository.test1.PeopleRepository;
+import springbootlearn.repository.test2.StudentRepository;
+
 @RestController
 public class PeopleController {
 	@Autowired
-	springbootlearn.repository.test1.PeopleRepository service1;
+	PeopleRepository peopleRepository;
 	
 	@Autowired
-	springbootlearn.repository.test2.StudentRepository service2;
+	StudentRepository studentRepository;
 	
 	@RequestMapping("/rollback")
-	public springbootlearn.entity.test1.People rollback(springbootlearn.entity.test1.People entity){
-		return service1.save(entity);
+	public People rollback(People entity){
+		return peopleRepository.save(entity);
 	}
 	
-	@RequestMapping("/norollback")
-	public springbootlearn.entity.test2.Student norollback(springbootlearn.entity.test2.Student entity){
-		return service2.save(entity);
-	}
+//	@RequestMapping("/norollback")
+//	public Student norollback(Student entity){
+//		return studentRepository.save(entity);
+//	}
+	
+	@RequestMapping("/test1")
+	public void test1(){
+		List<People> people = peopleRepository.getAllTest();
+		List<Student> student = studentRepository.getAllTest();
+		
+		for(People p : people){
+			System.out.println(p.getName());
+		}
+		
+		for(Student p : student){
+			System.out.println(p.getName());
+		}
+		
+	} 
+	
 }

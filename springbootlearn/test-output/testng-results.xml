@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="somke" duration-ms="6343" started-at="2017-09-07T09:39:46Z" finished-at="2017-09-07T09:39:53Z">
+    <groups>
+    </groups>
+    <test name="smoke" duration-ms="6343" started-at="2017-09-07T09:39:46Z" finished-at="2017-09-07T09:39:53Z">
+      <class name="springbootlearn.Test2">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:springbootlearn.Test2@1f760b47]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2017-09-07T17:39:53Z" finished-at="2017-09-07T17:39:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:springbootlearn.Test2@1f760b47]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="6" started-at="2017-09-07T17:39:53Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2017-09-07T17:39:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:springbootlearn.Test2@1f760b47]" name="test1" duration-ms="6" started-at="2017-09-07T17:39:53Z" finished-at="2017-09-07T17:39:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:springbootlearn.Test2@1f760b47]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2017-09-07T17:39:53Z" finished-at="2017-09-07T17:39:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void springbootlearn.Test2.test1() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:springbootlearn.Test2@1f760b47]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2017-09-07T17:39:53Z" finished-at="2017-09-07T17:39:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void springbootlearn.Test2.test1() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:springbootlearn.Test2@1f760b47]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2017-09-07T17:39:53Z" finished-at="2017-09-07T17:39:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void springbootlearn.Test2.test2() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:springbootlearn.Test2@1f760b47]" name="test2" duration-ms="1" started-at="2017-09-07T17:39:53Z" finished-at="2017-09-07T17:39:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:springbootlearn.Test2@1f760b47]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2017-09-07T17:39:53Z" finished-at="2017-09-07T17:39:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:springbootlearn.Test2@1f760b47]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2017-09-07T17:39:53Z" finished-at="2017-09-07T17:39:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void springbootlearn.Test2.test2() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+      </class> <!-- springbootlearn.Test2 -->
+      <class name="springbootlearn.Test1">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:springbootlearn.Test1@21d03963]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="10" started-at="2017-09-07T17:39:46Z" finished-at="2017-09-07T17:39:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:springbootlearn.Test1@21d03963]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="6258" started-at="2017-09-07T17:39:46Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2017-09-07T17:39:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:springbootlearn.Test1@21d03963]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2017-09-07T17:39:53Z" finished-at="2017-09-07T17:39:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void springbootlearn.Test1.test1() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:springbootlearn.Test1@21d03963]" name="test1" duration-ms="5" started-at="2017-09-07T17:39:53Z" finished-at="2017-09-07T17:39:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:springbootlearn.Test1@21d03963]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="6" started-at="2017-09-07T17:39:53Z" finished-at="2017-09-07T17:39:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void springbootlearn.Test1.test1() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:springbootlearn.Test1@21d03963]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="2" started-at="2017-09-07T17:39:53Z" finished-at="2017-09-07T17:39:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void springbootlearn.Test1.test2() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:springbootlearn.Test1@21d03963]" name="test2" duration-ms="5" started-at="2017-09-07T17:39:53Z" finished-at="2017-09-07T17:39:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:springbootlearn.Test1@21d03963]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2017-09-07T17:39:53Z" finished-at="2017-09-07T17:39:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void springbootlearn.Test1.test2() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:springbootlearn.Test1@21d03963]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2017-09-07T17:39:53Z" finished-at="2017-09-07T17:39:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- springbootlearn.Test1 -->
+    </test> <!-- smoke -->
+  </suite> <!-- somke -->
+</testng-results>
