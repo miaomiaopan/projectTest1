@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: dockertest
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: pmm
+Implementation-Vendor-Id: cn.pmm
+Build-Jdk: 1.8.0_91
+Implementation-URL: http://projects.spring.io/spring-boot/dockertest/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
